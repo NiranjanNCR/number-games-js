@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    /* background-color: rgb(88, 174, 2); */
+    background: url(../sound/web\ image.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    /* height: 100vh; */
+}
+main #welcomeScreen{
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    width: 25rem;
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgb(4, 62, 129);
+}
+
+#welcomeScreen img{
+width: 15rem;
+height:8rem;
+}
+
+.eventSection {
+
+}
+.button-wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+button{
+     margin: 1rem;
+     width: 15rem;
+    background-image:  linear-gradient(rgb(6, 216, 181) ,rgb(0, 255, 55));
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem;
+    border: none;
+}
+p{
+    font-size: 1.2rem;
+}
+
+
+/* game area */
+/* #welcomeScreen{
+    border: 1px solid red;
+    width: 25rem;
+    margin-top: 10rem;
+    text-align: center;
+    background-color: burlywood;
+} */
+
+#gamearea{
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 10rem 0rem 10rem 0rem;
+    background-color: rgb(3, 63, 131);
+    width: 25rem;
+    height: 45vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#textOutput{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: rgb(225, 222, 222);
+}
+#inputbox{
+    height: 2rem;
+    width: 12rem;
+    border-style: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.info p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(199, 197, 197);
+}
+
+#attempts {
+    color: rgb(4, 251, 4);
+    font-weight: bold;
+}
+#guess{
+    color: rgb(252, 54, 54);
+    font-weight: bold;
+}
+/* .newGameButton{ */
+/* width: 15rem; */
+/* } */
